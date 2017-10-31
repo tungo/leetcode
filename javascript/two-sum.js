@@ -4,10 +4,10 @@
  * @return {number[]}
  */
 
-var twoSum = function(nums, target) {
-  var helper = {};
+const twoSum = function(nums, target) {
+  const helper = {};
 
-  for (var i = 0; i < nums.length; i++) {
+  for (let i = 0; i < nums.length; i++) {
     if (helper[target - nums[i]] === undefined) {
       helper[nums[i]] = i;
     } else {

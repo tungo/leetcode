@@ -16,10 +16,10 @@ function ListNode(val) {
   this.next = null;
 }
 
-var addTwoNumbers = function(l1, l2) {
-  var result = new ListNode(0);
-  var helper = result;
-  var sum = 0;
+const addTwoNumbers = function(l1, l2) {
+  const result = new ListNode(0);
+  const helper = result;
+  let sum = 0;
 
   while (l1 !== null || l2 !== null) {
       sum = Math.floor(sum / 10);
